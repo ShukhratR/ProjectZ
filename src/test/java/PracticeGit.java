@@ -10,7 +10,7 @@ public class PracticeGit {
         System.out.println("What is your name ?");
 
         String name = scanner.nextLine();
-        System.out.println("Welcome, " + name + "!");
+        System.out.println("How are you, " + name + "!");
 
         scanner.close();
     }
