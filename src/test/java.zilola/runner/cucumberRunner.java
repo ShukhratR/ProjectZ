@@ -1,4 +1,0 @@
-// Hello world
-
-// test
-// practice
