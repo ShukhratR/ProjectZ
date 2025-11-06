@@ -5,12 +5,12 @@ public class PracticeGit {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Hello,World!");
+        System.out.println("Hello,\nWorld!");
 
         System.out.println("What is your name ?");
 
         String name = scanner.nextLine();
-        System.out.println("Welcome, " + name + "!");
+        System.out.println("Nice to meet you, " + name + "!");
 
         scanner.close();
     }
