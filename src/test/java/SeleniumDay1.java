@@ -18,6 +18,34 @@ public class SeleniumDay1 {
         driver.get("https://login.yahoo.com/");
         Thread.sleep(2000);
 
+
+
+    }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*  // name
+        driver.findElement(By.name("username")).sendKeys("test@yahoo.com");
+        driver.findElement(By.name("signin")).click();
+
+    }
+}
+
         // id:
         WebElement username = driver.findElement(By.id("login-username"));
         username.sendKeys("testZilola@yahoo");
@@ -30,13 +58,20 @@ public class SeleniumDay1 {
         driver.findElement(By.id("login-username"));
     }}
 
+   // xpath
+   driver.findElement(By.xpath("//input[@id='login-username']")).sendKeys("test@yahoo.com");
+        driver.findElement(By.xpath("//input[@id='login-signin']")).click();
 
 
-      /* driver.findElement(By.name("username")).sendKeys("test@yahoo.com");
-        driver.findElement(By.name("signin")).click();
+          driver.findElement(By.cssSelector("#login-username")).sendKeys("test@yahoo.com");
+        driver.findElement(By.cssSelector("#login-signin")).click();
 
-    }
-    } */
+
+        //driver.findElement(By.linkText("Difficulty signing in?")).click();
+//driver.findElement(By.linkText("Sign up")).click();
+
+
+       */
 
 
 
