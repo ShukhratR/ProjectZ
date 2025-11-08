@@ -22,7 +22,7 @@ public class XpathCheckBox {
         username.sendKeys("Zilola");
         Thread.sleep(1000);
 
-        password.sendKeys("rustamova09");
+        password.sendKeys("rustamova08");
         Thread.sleep(1000);
 
         loginBtn.click();
