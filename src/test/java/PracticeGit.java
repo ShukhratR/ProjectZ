@@ -5,7 +5,7 @@ public class PracticeGit {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("feature change for PR");
+        System.out.println("Hello,\nWorld!");
 
         System.out.println("What is your name ?");
 
