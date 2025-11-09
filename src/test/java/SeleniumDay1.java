@@ -18,7 +18,7 @@ public class SeleniumDay1 {
         driver.get("https://login.yahoo.com/");
         Thread.sleep(2000);
 
-
+  // git team work practice
 
     }}
 
