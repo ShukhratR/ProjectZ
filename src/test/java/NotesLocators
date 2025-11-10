@@ -1,0 +1,10 @@
+class LoginPage {
+  WebDriver driver;          // given by test
+  // locators
+  // constructor(driver)
+  // open()
+  // enterUsername(text)
+  // enterPassword(text)
+  // clickLogin()
+  // getFlashText()
+}
