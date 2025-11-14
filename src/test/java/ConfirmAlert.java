@@ -24,5 +24,6 @@ public class ConfirmAlert {
             System.out.println(driver.findElement(By.id("output")).getText());
 
             driver.quit();
+
 }
 }
