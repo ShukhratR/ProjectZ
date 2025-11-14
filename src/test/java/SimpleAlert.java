@@ -15,6 +15,7 @@ public class SimpleAlert {
         Alert simpleAlert = driver.switchTo().alert();
         System.out.println(simpleAlert.getText());
         Thread.sleep(2000);
+
         simpleAlert.accept();
         Thread.sleep(2000);
         driver.quit();
