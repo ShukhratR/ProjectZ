@@ -14,6 +14,7 @@ public class IframePage {
         private final By textArea = By.id("tinymce");
 
         public IframePage(WebDriver driver) {
+
             this.driver = driver;
         }
 

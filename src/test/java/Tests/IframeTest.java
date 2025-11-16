@@ -19,6 +19,7 @@ public class IframeTest {
 
     @Test
     public void testWritingInsideIframe() {
+
         IframePage iframePage = new IframePage(driver);
 
         iframePage.open();
