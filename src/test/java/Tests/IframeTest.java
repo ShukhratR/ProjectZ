@@ -13,6 +13,7 @@ public class IframeTest {
     @BeforeMethod
     public void setup() {
         WebDriverManager.chromedriver().setup();
+
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
