@@ -17,6 +17,7 @@ public class NestedFramesPage {
 
         public NestedFramesPage(WebDriver driver) {
             this.driver = driver;
+
         }
 
         public void open() {
