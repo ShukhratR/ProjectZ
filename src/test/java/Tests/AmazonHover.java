@@ -27,7 +27,6 @@ public class AmazonHover {
         @Test
         public void hoverAndClickAmazonMenu() throws InterruptedException {
 
-
             WebElement accountList = driver.findElement(By.id("nav-link-accountList"));
             actions.moveToElement(accountList).perform();
             Thread.sleep(1500);

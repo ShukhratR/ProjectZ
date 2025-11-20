@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 
 public class HoverMenu {
 
-
         WebDriver driver;
         Actions actions;
 
